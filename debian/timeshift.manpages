@@ -1,0 +1,2 @@
+# Only install those not provided by upstream
+debian/timeshift-launcher.1
