@@ -1,0 +1,24 @@
+From: Boyuan Yang <byang@debian.org>
+Date: Mon, 24 Jul 2023 23:07:01 -0400
+Subject: no info output for help2man
+
+Forwarded: https://github.com/linuxmint/timeshift/pull/217
+---
+ docs/man/meson.build | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/docs/man/meson.build b/docs/man/meson.build
+index 439a3e1..f86fc1b 100644
+--- a/docs/man/meson.build
++++ b/docs/man/meson.build
+@@ -1,8 +1,8 @@
+ help2man = find_program('help2man')
+ 
+ mans = [
+-  ['timeshift', [help2man, '--output=@OUTPUT@', timeshift]],
+-  ['timeshift-gtk', [help2man, '--output=@OUTPUT@', timeshift_gtk]],
++  ['timeshift', [help2man, '-N', '--output=@OUTPUT@', timeshift]],
++  ['timeshift-gtk', [help2man, '-N', '--output=@OUTPUT@', timeshift_gtk]],
+ ]
+ 
+ foreach man: mans
