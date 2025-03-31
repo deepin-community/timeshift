@@ -1,3 +1,48 @@
+timeshift (24.06.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 24.06.6.
+
+ -- Boyuan Yang <byang@debian.org>  Fri, 24 Jan 2025 18:07:28 -0500
+
+timeshift (24.06.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 24.06.3.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 17 Sep 2024 23:52:30 -0400
+
+timeshift (24.06.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 24.06.2.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 02 Jul 2024 23:50:09 -0400
+
+timeshift (24.06.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 24.06.1.
+  * debian/control: Recommend installation of pkexec. (Closes: #1069676)
+  * debian/control: Bump Standards-Version to 4.7.0.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 08 Jun 2024 18:15:19 -0400
+
+timeshift (24.01.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 24.01.1.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 10 Jan 2024 16:20:48 -0500
+
+timeshift (23.12.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 23.12.1.
+  * debian/patches/: Dropped, merged upstream.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 19 Dec 2023 17:27:22 -0500
+
 timeshift (23.07.1-1) unstable; urgency=medium
 
   * Team upload.

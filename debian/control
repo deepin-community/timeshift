@@ -15,7 +15,7 @@ Build-Depends:
  libxapp-dev,
  meson,
  valac,
-Standards-Version: 4.6.2
+Standards-Version: 4.7.0
 Homepage: https://github.com/linuxmint/timeshift
 Vcs-Git: https://salsa.debian.org/debian/timeshift.git
 Vcs-Browser: https://salsa.debian.org/debian/timeshift
@@ -28,6 +28,8 @@ Depends:
  rsync,
  ${misc:Depends},
  ${shlibs:Depends},
+Recommends:
+ pkexec,
 Breaks:
  util-linux (<< 2.37.2~),
 Replaces:
